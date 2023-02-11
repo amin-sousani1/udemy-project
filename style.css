@@ -2,6 +2,12 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto Condensed', sans-serif;
     }
     
     body{
