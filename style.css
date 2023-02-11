@@ -1,0 +1,555 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* header  کد های   */
+    header{
+        width: 100%;
+        background-color:white;
+        height: 80px;
+        color: black;
+        display: flex;
+        align-items:center ;
+        justify-content: space-around;
+        font-size: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .img-header{
+        width: 100px;
+    }
+
+    header input{
+        width: 400px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    header div{
+        cursor: pointer;
+    }
+
+    header div:hover{
+        color:rgb(71, 71, 245) ;
+    }
+
+    .btn-container{
+      width: 250px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .btn{
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .btn.one{
+        color:black ;
+        border: 1px solid black;
+    }
+
+    .btn.one:hover{
+        background-color:rgb(71, 71, 245) ;
+    }
+
+    .btn.two{
+        background-color: black;
+        color:white ;
+    }
+
+    .btn.two:hover{
+        background-color:rgb(71, 71, 245) ;
+    }
+    
+    /* ----------------------------------------------------------------- */
+    /* section کد های  */
+    section{
+        width:1340px;
+        height: 4000px;
+        background-color: white;
+    }
+    /* box1 کد های  */
+    .box1-parents{
+        
+        width:100%;
+        height: 600px;
+        background-color: white;
+        
+    }
+    
+    .img-contant{
+        position: relative;
+    }
+    
+    .img-position{
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 340px;
+        height: 150px;
+        position: absolute;
+        left: 100px;
+        top: 120px;
+    }
+    
+    
+    .heading-two{
+        margin:80px 0px 30px 0px;
+        font-size: 40px;
+    }
+    
+    .lest{
+        margin-top:30px;
+        margin-bottom: 10px; 
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .lest li{
+        list-style-type: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .lest li:hover{
+        color: rgb(71, 71, 245);
+    }
+    
+    .box1-child2{
+        height: 500px;
+        border: 1px solid lightgray;
+    }
+    
+    .box1-child2 h3{
+        margin: 40px 0px 10px 20px;
+        font-size: 25px;
+    }
+    
+    .box1-child2 button{
+        margin: 0px 0px 0px 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .box1-child2 button:hover{
+        background-color: rgb(71, 71, 245);
+    }
+
+    .box1-content{
+        display: flex;
+        justify-content: space-around;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .content1 img{
+        width: 240;
+        height:135 ;
+        cursor: pointer;
+    }
+/* ---------------------------------------------------------------- */
+    
+    /* box2 کد های  */
+    .box2-parents{
+        margin-top: 160px;
+        height: 430px;
+       
+    }
+
+    .box2-child1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+
+    .box2-child1 h2{
+       margin: 20px 0px 40px 0px;
+       padding-top: 20px;
+    }
+
+    .box2-child2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .content2{
+        width: 320px;
+        height: 300px;
+        border: 1px solid lightgray;
+        display: flex;
+        font-size: 17px;
+        justify-content: space-around;
+        color: black;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    
+    .content2 div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .content2 p{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .content2 h6{
+        color: blue;
+        cursor: pointer;
+        margin: 0px 0px 10px 10px;
+        font-size: 14px;
+    }
+    /* ------------------------------------------------------------ */
+    
+    /* box3 کد های  */
+    .box3-parents{
+        margin-top: 150px;
+        height:450 ;
+        width: 100%;
+    }
+
+    .box3-child1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px; 
+    }
+
+
+    .box3-child2{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 280px;
+    }
+
+    .content3{
+        width: 300px; 
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box3-child2 img{
+        width: 240px;
+        height: 135px;
+    }
+
+    .box3-child2 h4{
+        padding-top: 10px;
+    }
+
+    .box3-child2 button{
+        width: 75px;
+        padding: 4px;
+        margin-top: 6px;
+        color: black;
+        font-weight: bold;
+        background-color: darkgoldenrod;
+        border: none;
+    }
+/* ------------------------------------------------------------------ */
+    
+    /* box4 کد های  */
+    .box4-parents{
+        height: 500px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .box4-child1,h2{
+        font-size: 30px;
+    }
+
+    .box4-child2{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:auto auto auto auto ;
+        grid-gap: 30px;
+        grid-row: auto auto auto auto;
+    }
+    
+    
+    .content4{
+        width: 300px;
+        height: 300px;
+        font-size: 22px;
+    }
+
+    .content4 li{
+        list-style-type: none;
+        padding: 20px 0px ;
+    }
+
+    .content4 li a{
+        color: blue;
+    }
+
+    .content4,p{
+        padding-top: 6px;
+    }
+
+    .box4-child3 button{
+        width: 170px;
+        height: 50px;
+        margin-top: 45px;
+        font-weight: bold;
+        border: none;
+        background-color:black;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .box4-child3 button:hover{
+        background-color: rgb(71, 71, 245);
+    }
+/* ---------------------------------------------------------------- */
+    
+    /* box5 کد های  */
+    .box5-parents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box5-child1{
+        width: 600px;
+        height: 70px ;
+        margin: 50px 0px 40px 0px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .box5-child2{
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content5{
+        margin-right: 40px;
+        font-size: 23px;
+    }
+
+    .content5 h3{
+        margin: 20px 0px ;
+    }
+
+    .content5 li{
+        margin: 20px 0px ;
+        margin-left: 20px;
+    }
+
+    .content5 button{
+        margin: 10px 0px;
+        height: 60px;
+        width: 160px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .content5 button:hover{
+        background-color: rgb(71, 71, 245);
+    }
+
+    .box5-img{
+        margin-left: 40px;
+    }
+
+    .box5-child3{
+        display: flex;
+        height: 500px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container-img{
+        margin-right: 40px;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .container-content{
+        margin-left: 40px;
+        width: 400px;
+        height: 400px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-content h3{
+        font-size: 25px;
+        margin: 5px 0px ;
+
+    }
+
+    .container-content p{
+        margin: 10px 0px ;
+        text-align: justify;
+    }
+
+    .container-content button{
+        margin-top: 10px ;
+        width: 170px ;
+        height: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 20px;
+        background-color: black;
+        color:white;
+
+
+    }
+
+    .container-content button:hover{
+        background-color: rgb(71, 71, 245);
+    }
+    /* ---------------------------------------------------------------- */
+    
+    /* footer کد های  */
+    footer{
+        width: 100%;
+        background-color: black;
+        height: 400px;
+        display: flex;
+    }
+
+    .footer1{
+        width: 50%;
+        height: 100%;
+        background-color: black;
+    }
+
+    .container-link1{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .child-link1{
+        width: 150px ;
+        height: 250px ;
+        font-size: 20px;
+    }
+    
+    .child-link1 li{
+        margin: 30px 0px;
+        list-style-type: none;
+        
+    }
+    .child-link1 li a{
+        list-style-type: none;
+        color: white;
+    }
+
+
+    .footer2{
+        width: 50%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+        justify-content:space-between;
+
+    }
+
+    .footer2 button{
+        margin-top: 10px;
+        width: 170px;
+        height: 60px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        border: 1px  solid white;
+        margin-right: 40px;
+    }
+
+    .footer2 button:hover{
+        background-color:rgb(71, 71, 245) ;
+        border: 1px solid rgb(71, 71, 245);
+    }
+    
+    .footer2 p{
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: white;
+        margin-right: 40px;
+    }
+    
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
